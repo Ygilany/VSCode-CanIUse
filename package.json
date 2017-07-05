@@ -1,7 +1,20 @@
 {
   "name": "vscode-caniuse",
   "displayName": "Can I Use",
+  "icon": "images/icon.png",
   "description": "an extension that interfaces the Can I Use API",
+  "author": {
+    "name": "Yahya Gilany",
+    "email": "yahya.gilany@live.com",
+    "url": "yahya-gilany.com"
+  },
+    "bugs": {
+        "url": "https://github.com/Ygilany/vscode-caniuse/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ygilany/vscode-caniuse"
+    },
   "version": "0.0.1",
   "publisher": "yahya-gilany",
   "engines": {
