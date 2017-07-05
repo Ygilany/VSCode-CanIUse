@@ -1,6 +1,6 @@
 {
   "name": "vscode-caniuse",
-  "displayName": "VSCode | Can I Use",
+  "displayName": "Can I Use",
   "description": "an extension that interfaces the Can I Use API",
   "version": "0.0.1",
   "publisher": "yahya-gilany",
