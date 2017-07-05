@@ -15,7 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
             vscode.window.showQuickPick(searchResults, {
                 placeHolder: "What?"
             })
-            .then(onResolve, onRejected);   
+            .then(onFeatureSelection, onRejected);   
         });
 
     });
@@ -26,12 +26,11 @@ export function activate(context: vscode.ExtensionContext) {
 export function deactivate() {
 }
 
-function onResolve(selected) {
+function onFeatureSelection(selected) {
     if(!selected) {
         return;
     }
     let support = api.getSupport(selected)
-    console.log(support);
     vscode.window.showQuickPick(support, {})
 }
 
