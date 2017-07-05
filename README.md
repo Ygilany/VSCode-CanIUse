@@ -1,4 +1,4 @@
-# VSCode-CanIUse
+# VSCode | Can I Use
 [![Installs](http://vsmarketplacebadge.apphb.com/installs/yahya-gilany.vscode-canIuse.svg
 )](https://marketplace.visualstudio.com/items?itemName=yahya-gilany.vscode-canIuse)
 
