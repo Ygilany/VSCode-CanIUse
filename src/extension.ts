@@ -1,6 +1,7 @@
 import * as vscode from 'vscode';
 import { canIUseAPI as canIUse} from './canIuseAPI';
 const api = new canIUse();
+// api.setBrowserScope(`Firefox ESR, Opera 12.1, IE`);
 
 export function activate(context: vscode.ExtensionContext) {
     let disposable = vscode.commands.registerCommand('extension.canIUse', () => {

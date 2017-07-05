@@ -15,4 +15,8 @@ export class canIUseAPI {
 
     return parseSupportResponse(results);
   }
+
+  public setBrowserScope(scope) {
+    canIUse.setBrowserScope(scope);
+  }
 }
