@@ -1,0 +1,20 @@
+export const browsersHash = {
+  chrome:   `Chrome`,
+  safari:   `Safari`,
+  and_chr:  `Chrome Android`,
+  and_ff:   `Firefox Android`,
+  and_qq:   `QQ Browser`,
+  and_uc:   `UC Browser for Android`,
+  android:  `Android Browser`,
+  baidu:    `Baidu Browser`,
+  bb:       `Blackberry Browser`,
+  edge:     `Edge`,
+  firefox:  `Firefox`,
+  ie:       `Internet Explorer`,
+  ie_mob:   `IE Mobile`,
+  ios_saf:  `iOS Safari`,
+  op_mini:  `Opera Mini`,
+  op_mob:   `Opera Mobile`,
+  opera:    `Opera`,
+  samsung:  `Samsung Internet`
+}

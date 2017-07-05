@@ -1,9 +1,9 @@
 import * as vscode from 'vscode';
 import { canIUseAPI as canIUse} from './canIuseAPI';
+const api = new canIUse();
 
 export function activate(context: vscode.ExtensionContext) {
     let disposable = vscode.commands.registerCommand('extension.canIUse', () => {
-        const api = new canIUse();
 
         return vscode.window.showInputBox({
             prompt: `Search Query`,
@@ -30,7 +30,9 @@ function onResolve(selected) {
     if(!selected) {
         return;
     }
-    vscode.window.showInformationMessage(selected);
+    let support = api.getSupport(selected)
+    console.log(support);
+    vscode.window.showQuickPick(support, {})
 }
 
 function onRejected(selected) {
