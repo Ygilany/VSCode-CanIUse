@@ -1,6 +1,6 @@
 # VSCode | Can I Use
-[![Installs](http://vsmarketplacebadge.apphb.com/installs/yahya-gilany.vscode-canIuse.svg
-)](https://marketplace.visualstudio.com/items?itemName=yahya-gilany.vscode-canIuse)
+[![Installs](http://vsmarketplacebadge.apphb.com/installs/yahya-gilany.vscode-caniuse.svg
+)](https://marketplace.visualstudio.com/items?itemName=yahya-gilany.vscode-caniuse)
 
 "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
 
